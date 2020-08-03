@@ -1,0 +1,79 @@
+<ScrollView minimumZoomScale={1} maximumZoomScale={5} showsHorizontalScrollIndicator={false}>
+  <Image source={{url: "https://a.espncdn.com/i/headshots/mlb/players/full/33192.png"}}
+         style={{width: 400, height: 400}}/>
+</ScrollView>
+
+
+// very basic
+
+export default function App() {
+  return (
+    <SafeAreaView style={styles.container}>
+      <StatusBar style="auto" />
+
+      <Text>First question here</Text>
+
+      <View style={styles.ChoiceContainer}>
+        <Text style={styles.ChoiceText}>Choice 2</Text>
+      </View>
+
+      <View style={styles.ChoiceContainer}>
+        <Text style={styles.ChoiceText}>Choice 3</Text>
+      </View>
+
+      <View style={styles.ChoiceContainer}>
+        <Text style={styles.ChoiceText}>Choice 4</Text>
+      </View>
+
+    </SafeAreaView>
+  );
+}
+
+// image uploader
+https://imgbb.com/
+
+
+// load new image on button click
+
+var instrument = {
+  trumpet: "gold",
+  drums: "silver"
+}
+
+var question1 = ['David Ortiz', 'Manny Ramirez', 'Pedro Martinez', 'Kevin Millar'];
+const random = Math.floor(Math.random() * question1.length);
+
+
+export default class App extends React.Component{
+   constructor(){
+     super();
+       this.state={
+         imageURL : 'https://reactnativecode.com/wp-content/uploads/2017/10/Guitar.jpg'}}
+
+         Load_New_Image=()=>{
+           this.setState({
+           imageURL : 'https://reactnativecode.com/wp-content/uploads/2018/02/motorcycle.jpg'
+        })
+      }
+
+      render() {
+        return (
+          <SafeAreaView style={styles.MainContainer}>
+            <PlayersThree />
+              <Image
+              source = {{ uri: this.state.imageURL }}
+              style = {styles.imageStyle} />
+              <Button title="Click Here" onPress={this.Load_New_Image} />
+              <Text>{instrument.trumpet}</Text>
+              <Text>{question1[random]}</Text>
+
+              <TouchableOpacity style={styles.buttonContainer}>
+                  <Button title={question1[random]} color="white"/>
+                  <Button title="Option 2" color="white"/>
+                  <Button title="Option 1" color="white"/>
+                  <Button title="Option 1" color="white"/>
+              </TouchableOpacity>
+          </SafeAreaView>
+        );
+      }
+    }

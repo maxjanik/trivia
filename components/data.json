@@ -1,0 +1,23 @@
+[
+  {
+      "id": 1,
+      "firstname": "David",
+      "lastname": "Ortiz",
+      "food": "hamburger",
+  },
+  {
+      "id": 2,
+      "firstname": "Manny",
+      "lastname": "Ramirez",
+      "food": "hot dog",
+  },
+  {
+      "id": 3,
+      "firstname": "Pedro",
+      "lastname": "Martinez",
+      "food": "lamb",
+  },
+
+
+
+]

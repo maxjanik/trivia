@@ -1,0 +1,51 @@
+[
+  {
+      "id": 1,
+      "firstanswer": "Derek Jeter",
+      "secondanswer": "Mark Teixeira",
+      "thirdanswer": "Alex Rodriguez",
+      "fourthanswer": "Jorge Posada",
+      "correctanswer": "Derek Jeter",
+      "questionimage": "https://i.ibb.co/y45rn2c/Derek-Jeter.png",
+  },
+
+  {
+      "id": 2,
+      "firstanswer": "Manny Ramirez",
+      "secondanswer": "Dustin Pedroia",
+      "thirdanswer": "Kevin Youkilis",
+      "fourthanswer": "David Ortiz",
+      "correctanswer": "David Ortiz",
+      "questionimage": "https://i.ibb.co/qs1rXqc/Screen-Shot-2020-08-01-at-10-07-47-PM.png",
+  },
+
+  {
+      "id": 3,
+      "firstanswer": "Chris Archer",
+      "secondanswer": "Andrew Cashner",
+      "thirdanswer": "Justin Masterson",
+      "fourthanswer": "Marco Estrada",
+      "correctanswer": "Andrew Cashner",
+      "questionimage": "https://i.ibb.co/NTmLXCV/Screen-Shot-2020-08-01-at-10-12-44-PM.png",
+  },
+
+  {
+      "id": 4,
+      "firstanswer": "Bobby Bonilla",
+      "secondanswer": "R.J. Reynolds",
+      "thirdanswer": "Sid Bream",
+      "fourthanswer": "Jeff King",
+      "correctanswer": "Bobby Bonilla",
+      "questionimage": "https://i.ibb.co/f4nPJJ2/Screen-Shot-2020-08-01-at-8-25-14-PM.png",
+  },
+
+  {
+      "id": 5,
+      "firstanswer": "Adrian Gonzalez",
+      "secondanswer": "Carl Crawford",
+      "thirdanswer": "Chipper Jones",
+      "fourthanswer": "Andruw Jones",
+      "correctanswer": "Andruw Jones",
+      "questionimage": "https://i.ibb.co/rs38xpX/Screen-Shot-2020-08-01-at-9-56-53-PM-2.png",
+  },
+]
